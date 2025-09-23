@@ -1,0 +1,16 @@
+const prompt = require("prompt-sync")();
+let A= prompt("Enter namber 1 : ");
+let B= prompt("Enter namber 2 : ");
+let C= prompt("Enter namber 3 : ");
+console.log("prevuise");
+console.log(" A = ", A);
+console.log(" B = ", B);
+console.log(" C = ", C);
+let Q=A;
+A=B;
+B=C;
+C=Q;
+console.log("Now");
+console.log(" A = ", A);
+console.log(" B = ", B);
+console.log(" C = ", C);
